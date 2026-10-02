@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Signature Catering by 1314 — Menu</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,500&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F7F1E3;--ink:#12301F;--mute:#4F6556;--accent:#A3231B;--panel:#EBE2CC;--line:#12301F55;--bar:#F7F1E3EE;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0F2A1B;--ink:#F4ECD8;--mute:#A9BBA9;--accent:#EBAE38;--panel:#173826;--line:#F4ECD855;--bar:#0F2A1BEE}}
+:root[data-theme="dark"]{--bg:#0F2A1B;--ink:#F4ECD8;--mute:#A9BBA9;--accent:#EBAE38;--panel:#173826;--line:#F4ECD855;--bar:#0F2A1BEE}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 64px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.5 "DM Sans",system-ui,sans-serif}
+header{padding:56px 22px 36px;max-width:980px;margin:0 auto}
+h1{font:700 clamp(46px,12vw,104px)/.92 Fraunces,Georgia,serif;margin:0;letter-spacing:-.02em;font-variation-settings:"opsz" 144}
+.by{font:italic 500 clamp(22px,5vw,34px)/1.2 Fraunces,Georgia,serif;color:var(--accent);margin:10px 0 0}
+.sub{margin:22px 0 0;color:var(--mute);max-width:46ch}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bar);backdrop-filter:blur(8px);border-block:1px solid var(--line)}
+nav div{display:flex;gap:6px;overflow-x:auto;padding:10px 16px;max-width:980px;margin:0 auto;scrollbar-width:none}
+nav a{flex:none;color:var(--ink);text-decoration:none;font-weight:500;font-size:14px;padding:6px 13px;border-radius:99px;border:1px solid var(--line)}
+nav a:hover,nav a:focus-visible{background:var(--ink);color:var(--bg);outline:none}
+main{max-width:980px;margin:0 auto;padding:8px 22px 72px}
+section{padding:44px 0 8px}
+section.f{background:var(--panel);margin:36px -22px 0;padding:36px 22px 22px}
+h2{font:700 clamp(32px,7vw,48px)/1 Fraunces,Georgia,serif;margin:0 0 6px;letter-spacing:-.01em}
+.note{margin:0 0 18px;color:var(--mute);font-size:14px;font-style:italic}
+ul{list-style:none;margin:18px 0 0;padding:0}
+@media(min-width:760px){ul{column-count:2;column-gap:56px}section.f{margin-inline:-40px;padding-inline:40px;border-radius:4px}}
+li{break-inside:avoid;padding:0 0 18px}
+.r{display:flex;align-items:baseline;gap:10px}
+.n{font:500 19px/1.25 Fraunces,Georgia,serif}
+.r i{flex:1;border-bottom:2px dotted var(--line);transform:translateY(-4px);min-width:16px}
+.p{font-weight:500;color:var(--accent);font-variant-numeric:tabular-nums;white-space:nowrap}
+li p{margin:3px 0 0;color:var(--mute);font-size:14.5px;line-height:1.45;max-width:44ch}
+footer{max-width:980px;margin:0 auto;padding:8px 22px 56px;color:var(--mute);font-size:14px}
+footer b{font:italic 500 22px Fraunces,Georgia,serif;color:var(--ink);display:block;margin-bottom:4px}
+</style>
+</head>
+
+<body>
+<header>
+    <img src="images/IMG-20260901-WA0001.jpg" style="width: 150px; height: 150px; border-radius: 75px; margin-left: 337px;">
+    <h1>Signature Catering</h1>
+<p class="by">by 1314</p>
+<p class="sub">Soups, sauces, pasta, platters and peppered everything. All prices in naira.</p>
+</header>
+<nav><div id="nav" aria-label="Menu sections"></div></nav>
+<main id="menu"></main>
+<footer><b>Signature Catering by 1314</b>Prices may change without notice.</footer>
+<script>
+var T="Takeaway bowl ₦1,000 extra.";
+var M=[
+["Starters",T,[["SC Plantain Cup",5000,"Plantain cup with stir-fried goat meat"],["Goatly Roll",4000,"Spicy goat meat rolls"]]],
+["Main Dish",T,[["SC Special Rice",7000,"Stir-fry rice with diced chicken breast, mushrooms, broccoli, olives and garlic. No salt."],["Ofada Mix",7000,"Ofada rice cooked in jollof vibes, with diced kpomo, smoked fish and scent leaf"],["Oriental Rice",7500,"Minced meat, sausage, garlic, sweet corn, soy sauce and seasoning"],["Basmati Jollof Mix",7000,"Basmati jollof cooked with smoked fish and diced beef or goat meat"],["Basmati Jollof Rice",4500,"Basmati jollof rice cooked in tomato sauce"]]],
+["Pasta",T,[["Stir-Fry Pasta",6800,"Pasta, beef fillet, Asian sauces, veggies, garlic, crushed pepper, ginger and pasta chilli"],["Jollof Spaghetti",5500,"Spaghetti cooked in tomato and chilli sauce with diced sausages"],["Penne Arrabbiata",7800,"Penne in chilli tomato sauce with minced meat, oregano, olive oil, garlic and basil"],["Penne Alfredo",7999,"Penne in a creamy sauce with chicken, mushroom and cream cheese, served with parmesan"],["Spaghetti Meatball",8300,""],["Stir-Fry Noodles",4500,"Noodles stir-fried with veggies, sausage, chilli sauce, thyme and garlic, served with 2 eggs"]]],
+["Proteins","",[["Protein Box",38000,"Chicken, turkey, gizzard, sausage, beef and goat meat"],["Turkey",7000,"Spicy peppered turkey wings"],["Wings",6000,"Spicy peppered chicken wings"],["Drumstick",6500,"Spicy peppered chicken drumstick"],["Chicken Breast",6300,"Spicy chicken breast sautéed in veggies"],["Goat Kebab",5300,"Spicy roasted goat chunks on skewer"],["Peppered Goat Meat",5000,"Spicy peppered goat meat"],["Peppered Beef",4700,"Spicy peppered beef"],["Peppered Gizzard",4600,"Spicy peppered gizzards in veggies"],["Peppered Kpomo",2500,"Spicy peppered kpomo"],["Peppered Snail",10500,"Spicy peppered snails in veggies"]]],
+["Packages","",[["Efo Package",10000,"Efo riro cooked with smoked fish, assorted kpomo, and beef or goat meat. Served with basmati white rice or boiled plantain."],["Spaghetti Package",8900,"Jollof spaghetti in tomato and chilli sauce with sausages, sliced vegetables, smoked fish, and beef or goat meat"]],1],
+["Sides","",[["Yam Chips",3000,"Fried yam chips"],["Plantain",2000,"Boiled or fried"],["Sausages",1500,"Fried sausage"],["French Fries",3000,""],["Basmati White Rice",3000,"Plain basmati rice"],["Nigerian White Rice",2300,"Plain rice"]]],
+["Sauces","",[["Chicken Curry Sauce",7500,"Chicken cooked in traditional northern Indian spices, served with steamed rice"],["Shredded Chicken Sauce",7500,"Chicken cooked with Chinese spices, garlic, ginger, white pepper and julienned veggies, served with steamed rice"],["Beef Curry Sauce",7100,"Beef in curry sauce, served with steamed rice"]]],
+["Peppersoups","",[["Catfish Pepper Soup",8500,"Catfish pepper soup"],["Goat Meat Pepper Soup",5200,"Spicy, soft goat meat pepper soup"],["Assorted Pepper Soup",4500,"Spicy assorted cow offal pepper soup"]]],
+["Platters","",[["Mini Platter",18400,"Yam chips, Irish chips, plantain, hot dog, wings and gizzard"],["Midi Platter",27600,"Yam chips, Irish chips, plantain, drumsticks, hot dog, goatly roll, pepper beef and plantain cup"],["Signature Platter",49250,"Assorted fries, drumsticks, spicy wings, spicy beef kebabs, spicy shrimp skewers and spicy gizzard"],["Signature Special Platter",98500,"Small chops, assorted fries, spicy turkey, drumsticks, wings, asun, sausages, spicy gizzards and spicy beef chops"]],1],
+["Natives","",[["Nkwobi",8000,"Deboned cow foot sautéed in pepper, palm oil, ugba, onions and utazi leaves"],["Isiewu",10000,"Goat head sauced with pepper, palm oil, ugba, onion and utazi leaves"],["Ugba",2100,""]]],
+["Soups","",[["Egusi and Beef",8000,"Egusi soup with pumpkin leaves and beef"],["Oha and Beef",8000,"Oha soup with beef"],["Bitterleaf and Beef",8000,"Bitterleaf soup with beef"],["Ogbono and Beef",8000,"Ogbono soup with beef"],["Oha and Goat Meat",8400,"Oha soup with goat meat"],["Bitterleaf and Goat Meat",8400,"Bitterleaf soup with goat meat"],["Ogbono and Goat Meat",8400,"Ogbono soup with goat meat"],["Afang Medley",10300,"Afang medley"]]],
+["Under ₦10k","Every combo comes with a drink.",[["Nigerian Jollof, Plantain and Chicken or Beef",8950,"With a rosella drink"],["Fried Yam Chips, Plantain and Egg Sauce",7950,"With a rosella drink"],["French Fries, Chicken in Chilli Sauce and Sausages",7950,"With a rosella drink"],["Any Swallow with Soup and Beef or Goat Meat",8000,"With a rosella drink"],["Noodles with Veggies, Fried or Boiled Eggs and Sausages",4950,"Served with a piece of chicken and a drink"],["Spaghetti Bolognese",8250,"Spaghetti in a well-seasoned minced meat tomato sauce, with parmesan and a soda"]]],
+["Fresh Juice","",[["Pineapple Juice",4500,""],["Watermelon Juice",4500,""],["Fresh Orange Juice",4600,""]]]
+];
+var slug=function(s){return s.toLowerCase().replace(/[^a-z0-9]+/g,"-")};
+var nav="",out="";
+M.forEach(function(c){
+nav+='<a href="#'+slug(c[0])+'">'+c[0]+'</a>';
+out+='<section id="'+slug(c[0])+'"'+(c[3]?' class="f"':'')+'><h2>'+c[0]+'</h2>'+(c[1]?'<p class="note">'+c[1]+'</p>':'')+'<ul>';
+c[2].forEach(function(i){
+out+='<li><div class="r"><span class="n">'+i[0]+'</span><i></i><span class="p">₦'+i[1].toLocaleString("en-US")+'</span></div>'+(i[2]?'<p>'+i[2]+'</p>':'')+'</li>';
+});
+out+='</ul></section>';
+});
+document.getElementById("nav").innerHTML=nav;
+document.getElementById("menu").innerHTML=out;
+</script>
+</body>
+</html>
